@@ -10,12 +10,12 @@ function CardImg(): JSX.Element | string {
       >
         {/* Heading with Bootstrap classes for styling */}
         <h5 className="card-title text-primary fw-bold mb-2 card-header fs-1">
-          GANTRY CRANE
+          TYRE DISMANTLER
         </h5>
 
         {/* Image */}
         <img
-          src="/images/gantry crane.jpg"
+          src="/images/Tyre Dismantler.jpg"
           className="card-img-top mb-2 rounded"
           alt="Equipment"
         />
@@ -33,60 +33,7 @@ function CardImg(): JSX.Element | string {
         </div>*/}
       </div>
 
-      <div className="d-flex  row row-cols-1 row-cols-md-3 g-4">
-        {/* Additional Card with Primary Background */}
-        <div
-          className="card rounded-lg text-bg-secondary mb-3 p-3 mx-auto card-3d"
-          style={{ maxWidth: "18rem" }}
-        >
-          <div className="d-flex justify-content-between align-items-center">
-            <span className="fw-bold fs-4 text-white">
-             NDT REPORT
-            </span>
-            <a href="/pdfs/NDT Report.pdf" download className="btn ">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="28"
-                height="28"
-                fill="currentColor"
-                className="bi bi-arrow-down-circle-fill"
-                viewBox="0 0 16 16"
-              >
-                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z" />
-              </svg>
-            </a>
-            
-          </div>
-          <p className="text-white fw-bold fs-5 card-header ">
-            Valid Till: <span className="fw-semibold">26-02-2025</span>
-          </p>
-        </div>
-
-        
-        {/* Additional Card with Primary Background */}
-        <div
-          className="card rounded-lg text-bg-primary mb-3 p-3 mx-auto card-3d"
-          style={{ maxWidth: "18rem" }}
-        >
-          <div className="d-flex justify-content-between align-items-center">
-            <span className="fw-bold fs-4 text-white">Load Test Report</span>
-            <a href="/pdfs/Load Test Report.pdf" download className="btn ">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="28"
-                height="28"
-                fill="currentColor"
-                className="bi bi-arrow-down-circle-fill"
-                viewBox="0 0 16 16"
-              >
-                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z" />
-              </svg>
-            </a>
-          </div>
-          <p className="text-white fw-bold fs-5 card-header ">
-            Valid Till: <span className="fw-semibold">27-02-2025</span>
-          </p>
-        </div>
+     <div>
         
         <div
           className="card rounded-lg text-bg-info mb-3 p-3 mx-auto card-3d"
