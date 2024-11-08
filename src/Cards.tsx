@@ -41,7 +41,7 @@ function CardImg(): JSX.Element | string {
         >
           <div className="d-flex justify-content-between align-items-center">
             <span className="fw-bold fs-4 text-white">Inspection Checklist</span>
-            <a href="/pdfs/Manual.PDF" download className="btn ">
+            <a href="/pdfs/Tyre Dismantler Checklist.pdf" download className="btn ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="28"
